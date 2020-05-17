@@ -17,48 +17,77 @@
         android:layout_height="wrap_content"
         android:hint="Enter numberB"
         />
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        >
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="0.2"
         android:text="＋"
         android:onClick="sendMessage"
         />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.2"
-        android:text="−"
-        android:onClick="sendMessage"
-        />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.2"
-            android:text="×"
-            android:onClick="sendMessage"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.2"
-            android:text="÷"
-            android:onClick="sendMessage"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.2"
-            android:text="クリア"
-            android:onClick="sendMessage"
-            />
-    </LinearLayout>
     <TextView  android:id="@+id/view_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    >-->
+<!--    <EditText-->
+<!--        android:id="@+id/edit_message_a"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter numberA"-->
+<!--        />-->
+<!--    <EditText-->
+<!--        android:id="@+id/edit_message_b"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter numberB"-->
+<!--        />-->
+<!--    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="0.2"-->
+<!--        android:text="＋"-->
+<!--        android:onClick="sendMessage"-->
+<!--        />-->
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_weight="0.2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="−"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:onClick="minusNumber"&ndash;&gt;-->
+<!--&lt;!&ndash;        />&ndash;&gt;-->
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="0.2"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="×"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="multiplyNumber"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="0.2"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="÷"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="divideNumber"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="0.2"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="クリア"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:onClick="clearNumber"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
+<!--    </LinearLayout>-->
+<!--    <TextView  android:id="@+id/view_message"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+<!--</LinearLayout>-->
